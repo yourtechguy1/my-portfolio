@@ -73,14 +73,9 @@ li {
   position: fixed;
   top: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 20px;
   z-index: 100;
-}
-@media screen and (max-width: 640px) {
-  .navbar {
-    padding: 10px;
-  }
 }
 
 #welcome-section {
@@ -112,7 +107,7 @@ li {
   text-shadow: 2px 1px 2px var(--tetiary-color);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   #welcome-section h1 {
     font-size: 4rem;
   }
