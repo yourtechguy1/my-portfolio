@@ -166,10 +166,6 @@ li {
   height: auto;
 }
 
-.card-content {
-  padding: 20px;
-}
-
 .card p {
   font-size: 1.5rem;
   color: var(--secondary-color);
@@ -222,21 +218,17 @@ li {
 }
 
 .contact-header > h2 {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 @media (max-width: 650px) {
   .contact-header > h2 {
-    font-size: 4rem;
-  }
-  .contact-header > p {
-    font-size: 1rem;
+    font-size: 3rem;
   }
 }
 
 .contact-header > p {
   font-style: italic;
-  font-size: 2rem;
 }
 
 .social-media {
