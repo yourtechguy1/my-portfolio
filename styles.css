@@ -20,7 +20,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Open-Sans";
+  font-family: "Open Sans", sans-serif;
   background-color: var(--main-color);
   color: var(--secondary-color);
 }
