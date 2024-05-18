@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+
 :root {
   --main-color: #171717;
   --secondary-color: #fff;
@@ -19,7 +21,6 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   background-color: var(--main-color);
   color: var(--secondary-color);
@@ -236,68 +237,32 @@ li {
   }
 }
 
-.social-media {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 30vh;
-}
-
-.social-media-buttons {
-  width: 350px;
+.icons {
+  width: 30%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
-}
-
-.social-media-button {
-  width: 50px;
-  height: 50px;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  transform: rotate(-30deg) skew(25deg) translate(0, 0);
-  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
-  transition: 0.3s all ease-in-out;
+  flex-wrap: wrap;
+  padding-top: 80px;
 }
 
-.social-media-button:hover {
-  transform: rotate(-30deg) skew(25deg) translate(10px, -10px);
-  box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.5);
+.icons > .img {
+  width: 30%;
+  padding: 5px 10px;
+  background: white;
+  justify-content: center;
+  display: inherit;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-a.facebook:hover {
-  background-color: #3a5796;
-}
-
-a.twitter:hover {
-  background-color: #1c9ceb;
-}
-
-a.linkedin:hover {
-  background-color: #0371ae;
-}
-
-a.instagram:hover {
-  background-color: #d12c7a;
-}
-
-.social-media a svg {
-  width: 30px;
-  height: 30px;
-}
-
-.social-media a svg path,
-.social-media a svg circle {
-  transition: 0.3s all ease-in-out;
-  fill: #292929;
-}
-
-.social-media a:hover svg path,
-.social-media a:hover svg circle {
-  fill: #fff;
+.icons > .img:hover {
+  background-color: #f2ecec;
+  position: relative;
+  top: -10px;
+  box-shadow: 0 0 40px rgba(76, 175, 80, 0.2);
+  transition: all 3s ease-in;
 }
 
 footer {
